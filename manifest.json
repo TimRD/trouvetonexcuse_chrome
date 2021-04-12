@@ -1,12 +1,12 @@
 {
   "name": "Trouve Ton Excuse",
   "description": "Trouver une excuse rapidement",
-  "version": "1.0",
+  "version": "1.2",
   "manifest_version": 3,
   "background": {
     "service_worker": "background.js"
   },
-  "permissions": ["storage", "activeTab", "scripting"],
+  "permissions": [],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
